@@ -426,6 +426,7 @@ while ($in[$i] != '$') {
                 $state = 13;
 
                 $i++;
+                $t = 0;
             } else {
                 $state = 110;
 
